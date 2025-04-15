@@ -28,20 +28,20 @@
     </section>
 
     <section id="ideas" style="display:none;">
-        <h2>Submit an Idea</h2>
-        <textarea id="ideaText" placeholder="Wouldn’t it be great if..."></textarea>
-        <br>
-        <label for="ideaTag">Tag this idea:</label>
-        <select id="ideaTag">
-            <option value="Analysis">Analysis</option>
-            <option value="Challenge">Challenge</option>
-            <option value="Ideation">Ideation</option>
-            <option value="Refinement">Refinement</option>
-            <option value="Evaluation">Evaluation</option>
-            <option value="Implementation">Implementation</option>
-        </select>
-        <br><br>
-        <button onclick="submitIdea()">Submit</button>
+        <h2 class="guiding-question">Wouldn’t it be great if...</h2>
+        <textarea id="ideaText" placeholder="Type your idea here..."></textarea>
+        <div class="tag-submit">
+            <label for="ideaTag">Tag this idea:</label>
+            <select id="ideaTag">
+                <option value="Analysis">Analysis</option>
+                <option value="Challenge">Challenge</option>
+                <option value="Ideation">Ideation</option>
+                <option value="Refinement">Refinement</option>
+                <option value="Evaluation">Evaluation</option>
+                <option value="Implementation">Implementation</option>
+            </select>
+            <button onclick="submitIdea()">Submit</button>
+        </div>
         <ul id="ideaList"></ul>
     </section>
 

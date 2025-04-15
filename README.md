@@ -1,5 +1,6 @@
-# Futurecrafting ThinkShop v2.0.1
+# Futurecrafting ThinkShop v2.0.2
 
 Adds:
-- Session setup fields: Workshop Name, Facilitator, Date
-- Header that displays session metadata
+- Guiding prompt: "Wouldn’t it be great if..." above idea box
+- Smaller, cleaner text box layout
+- Balanced and aligned tag + submit section
