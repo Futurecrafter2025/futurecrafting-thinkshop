@@ -24,7 +24,7 @@ nav button {
 section {
     padding: 20px;
 }
-textarea, input {
+textarea, input, select {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;

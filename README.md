@@ -1,5 +1,5 @@
-# Futurecrafting ThinkShop
+# Futurecrafting ThinkShop v1.1
 
-A simple web app for running interactive in-person innovation sessions using polls and idea collection tools.
-
-Built to support Futurecrafting ThinkShops.
+Adds:
+- Framework-tagged ideas
+- Simulated voting on poll questions
