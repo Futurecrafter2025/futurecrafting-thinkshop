@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <title>Futurecrafting ThinkShop</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Futurecrafting ThinkShop</h1>
+        <p class="tagline">Crafting Innovation with Purpose</p>
         <section class="session-setup">
             <label>Workshop Name: <input type="text" id="workshopName" oninput="updateHeader()"></label>
             <label>Facilitator: <input type="text" id="facilitatorName" oninput="updateHeader()"></label>
@@ -42,7 +44,14 @@
             </select>
             <button onclick="submitIdea()">Submit</button>
         </div>
-        <ul id="ideaList"></ul>
+        <div id="groupedIdeas">
+            <h3>Analysis</h3><ul id="ideas-Analysis"></ul>
+            <h3>Challenge</h3><ul id="ideas-Challenge"></ul>
+            <h3>Ideation</h3><ul id="ideas-Ideation"></ul>
+            <h3>Refinement</h3><ul id="ideas-Refinement"></ul>
+            <h3>Evaluation</h3><ul id="ideas-Evaluation"></ul>
+            <h3>Implementation</h3><ul id="ideas-Implementation"></ul>
+        </div>
     </section>
 
     <script src="script.js"></script>

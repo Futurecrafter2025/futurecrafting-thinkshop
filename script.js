@@ -38,8 +38,11 @@ function submitIdea() {
     const tag = document.getElementById('ideaTag').value;
     if (idea.trim() !== "") {
         const li = document.createElement('li');
-        li.textContent = `[${tag}] ${idea}`;
-        document.getElementById('ideaList').appendChild(li);
+        li.textContent = idea;
+        const targetList = document.getElementById(`ideas-${tag}`);
+        if (targetList) {
+            targetList.appendChild(li);
+        }
         document.getElementById('ideaText').value = '';
     }
 }
