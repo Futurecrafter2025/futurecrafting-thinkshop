@@ -1,5 +1,5 @@
-# Futurecrafting ThinkShop v1.1
+# Futurecrafting ThinkShop v2.0.1
 
 Adds:
-- Framework-tagged ideas
-- Simulated voting on poll questions
+- Session setup fields: Workshop Name, Facilitator, Date
+- Header that displays session metadata

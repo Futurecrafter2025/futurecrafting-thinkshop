@@ -29,3 +29,16 @@ textarea, input, select {
     padding: 10px;
     margin-bottom: 10px;
 }
+.session-setup {
+    background-color: #fff3e0;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 8px;
+    max-width: 600px;
+    text-align: left;
+}
+.session-header {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #14213d;
+}

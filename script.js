@@ -4,6 +4,14 @@ function showSection(id) {
     document.getElementById(id).style.display = 'block';
 }
 
+function updateHeader() {
+    const name = document.getElementById('workshopName').value;
+    const facilitator = document.getElementById('facilitatorName').value;
+    const date = document.getElementById('workshopDate').value;
+    const headerText = `${name ? name : ''} ${facilitator ? '| Facilitator: ' + facilitator : ''} ${date ? '| Date: ' + date : ''}`;
+    document.getElementById('sessionHeader').textContent = headerText;
+}
+
 function createPoll() {
     const question = document.getElementById('pollQuestion').value;
     if (question.trim() !== "") {
