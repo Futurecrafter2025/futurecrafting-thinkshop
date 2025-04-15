@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfcf9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #fca311;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    color: #fff;
+}
+nav button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #14213d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+section {
+    padding: 20px;
+}
+textarea, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
